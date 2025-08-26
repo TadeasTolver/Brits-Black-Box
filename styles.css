@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    width: 100vw;
+    justify-content: left;
+    position: fixed;
+    z-index: 3;
+}
+
+.nav-btn {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: whitesmoke;
+    border: none;
+    border-right: 2px solid black;
+    font-size: 40px;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    background-color: whitesmoke;
+    margin-left: 70px;
+}
+
+.nav-links a {
+    transition: 0.4s color linear;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+}
+
+.current-page-link {
+    text-decoration: underline 5px !important;
+}
+
+.nav-links a:hover {
+    color: red;
+    cursor: pointer; 
+}
+
+.heading {
+    margin-top: 12vh;
+    font-size: 3.75rem;
+    text-align: center;
+}
+
+.main-p {
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7vw;
+    height: 250px;
+    align-items: center;
+    font-family: "Lora";
+    background-color: #d43515;
+    border-top: 2px solid whitesmoke;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 4vw;
+}
+
+footer h3 {
+    font-size: 25px;
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 4vw;
+}
+
+#slogan {
+    margin-bottom: 13px;
+}
+
+#footer-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer-image {
+    width: 300px;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+/* Cards: ------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+.cards-con {
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+
+.card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px; 
+    transition: filter 1s linear, transform 0.4s ease-out;
+}
+
+.card-hidden {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor: pointer; 
+    transition: opacity 0.5s linear;
+}
+
+.card-name {
+    font-size: 23px;
+    color: black;
+    margin-bottom: 10px;  
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+.card-text {
+    font-size: 18px;
+    color: black;
+    max-width: 280px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+.more-link {
+    font-size: 20px;
+    color: black;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    margin-top: 0;
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.more-link:hover {
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgba(15, 13, 13, 0.7);
+}
+
+.play-pause {
+    width: 15%;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+/* audio controls: */
+
+.audio-controls {
+    border-top: 2px solid black;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 87vh;
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 13vh;
+    gap: 40px;
+    transition: transform 0.4s;
+    transform: scaleY(0);
+}
+
+.audio-img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.audio-heading {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.play-pause-audio {
+    margin: 0;
+    width: 50px;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.minus15, .plus15 {
+    color: black;
+    border: 2px solid black;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+}
+
+.time-con, .audio-buttons-con {
+    flex-wrap: nowrap;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+line {
+    cursor: pointer;
+}
+
+.current-time, .duration {
+    color: black;
+    font-size: 13px;
+}
+
+.close-btn-con {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.close-btn {
+    height: 80%;
+    aspect-ratio: 1/1;
+    margin-right: 3vw;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    transition: rotate 0.5s ease-in-out, transform 0.2s;
+    cursor: pointer;
+    transform: scaleX(0);
+}
+
+.close-btn:hover {
+    rotate: 90deg;
+}
+
+/* media: */
+
+@media (max-width: 800px) {
+    footer h2, footer h3 {
+        white-space: wrap;
+    }
+
+    footer {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 300px;
+        white-space: wrap;
+    }
+
+    #footer-image {
+        left: 15px;
+        width: 200px;
+        margin-top: 245px;
+    }
+
+    .nav-links {
+        height: 140px;
+        width: 90vw;
+    }
+
+    .nav-links a {
+        margin-left: 20px;
+    }
+
+    #footer-image {
+        opacity: 0;
+    }
+
+    .heading {
+        font-size: 3.25;
+    }
+
+    .audio-controls {
+        flex-wrap: wrap;
+        align-items: center;
+        height: 140px;
+        margin: 0;
+        gap: 0;
+        margin-top: calc(100vh - 140px);
+    }
+    .audio-img {
+        height: 50%;
+        margin-left: 10px;
+    }
+
+    .audio-heading {
+        margin: 0;
+        width: 0;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+
+    .time-con, .audio-buttons-con {
+        gap: 5px;
+        margin: 0;
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .close-btn {
+        margin: 0;
+        padding: 0;
+    }
+
+    .close-btn-con {
+        margin: 0;
+        padding: 0;
+        height: 60px;
+        width: 60px;
+        margin-left: 10px;
+    }
+}
+
+

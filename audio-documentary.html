@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Brits Black Box | Audio-documentary</title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Audio-documentaries by Brit Plieštik Jensen, audiodocumentarist and dramaturge."/>
+        <meta name="keywords" content="Brit, Pliestik, Jensen, audio, documentary, documentaries, dramaturge, Czech, Danish, English, radio, investigative, producer, public radio, prizes, Brits, Black, Box, Brits Black Box"/>
+        <meta name="author" content="Brit Plieštik Jensen"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="icon" href="Pictures/b.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="nav">
+            <button class="nav-btn">☰</button>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about-me.html">About Me</a>
+                <a class="current-page-link">Audio documentary</a>
+                <a href="dramaturgy.html">Editor/dramaturgy</a>
+                <a href="prizes.html">Prizes</a>
+            </div>
+        </div>
+
+        <h1 class="heading">Audio documentary</h1>
+        <p class="main-p">A selection of my programmes and podcasts</p>
+
+        <div class="cards-con" id="documentary"></div>
+
+        <div class="audio-controls">
+            <img class="audio-img"/>
+            <h3 class="audio-heading"></h3>
+
+            <div class="audio-buttons-con">
+                <button class="minus15">-15s</button>
+                <button class="play-pause-audio">▶</button>
+                <button class="plus15">+15s</button>
+            </div>
+
+            <div class="time-con">
+                <p class="current-time"></p>
+                <svg class="line-area" width="214" height="98%">
+                    <line class="progress-line" x1="7" y1="40" x2="207" y2="40" stroke="black" stroke-width="4" />
+                </svg>
+                <p class="duration"></p>
+            </div>
+
+            <div class="close-btn-con">
+                <button class="close-btn">✖</button>
+            </div>
+
+        </div>
+
+        <footer>
+            <div id="footer-texts">
+                <h2>Brit Plieštik Jensen</h2>
+                <h3 id="slogan">Audio DOCUMENTARY and PODCAST</h3>
+                <h3>CVR: 44337797</h3>
+                <h3>brit@britjensen.dk</h3>
+            </div>
+            <img id="footer-image" src="Pictures/footer img.png"/>
+        </footer>
+        
+    <script type="module" src="cards.js"></script>
+    <script type="module" src="script.js"></script>
+    </body>
+</html>

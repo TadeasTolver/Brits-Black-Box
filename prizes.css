@@ -1,0 +1,34 @@
+article {
+    margin-top: 4vh;
+    margin-left: 10vw;
+    margin-right: 1vw;
+}
+
+.heading {
+    text-align: left;
+}
+
+.main-p {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#prizes-photo {
+    object-fit: contain;
+    width: 600px;
+    max-width: 90vw;
+}
+
+.prize-span {
+    color: #444b9e;
+}
+
+.name-span {
+    color: #de1f1f;
+}
+
+footer {
+    margin-top: 40px;
+}
+

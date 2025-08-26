@@ -1,0 +1,29 @@
+#index-heading {
+    font-family: "Nunito", Courier, slab-serif, sans-serif;
+    color: #d43515;
+    text-shadow: 0 0 10px white;
+    text-align: center;
+    font-size: clamp(70px, 6vw, 110px);
+    margin-right: 20px;
+    margin-left: 20px;
+} 
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Pictures/bomme\ med\ havn.jpg");
+    background-size: cover;
+}
+
+footer {
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    .background {
+        height: 70vh;
+    }
+}
