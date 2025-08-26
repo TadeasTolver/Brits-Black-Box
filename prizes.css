@@ -1,17 +1,19 @@
 article {
     margin-top: 4vh;
-    margin-left: 10vw;
-    margin-right: 1vw;
+    margin-left: 5vw;
+    width: 90vw;
 }
 
 .heading {
     text-align: left;
+
 }
 
 .main-p {
     text-align: left;
     line-height: 1.5;
     font-size: 20px;
+    margin: 0;
 }
 
 #prizes-photo {
@@ -31,4 +33,7 @@ article {
 footer {
     margin-top: 40px;
 }
+
+
+
 
