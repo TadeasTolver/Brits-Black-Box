@@ -66,4 +66,9 @@
     .logo {
         width: 70px;
     }
+
+    .logo:hover {
+        transform: scaleX(1) scaleY(1);
+    }
 }
+
