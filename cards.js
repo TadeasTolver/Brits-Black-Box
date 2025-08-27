@@ -112,7 +112,7 @@ const documentaryCardsContent = [
       text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in august 2015 and followed her journey all the way to Rio.<br><br>Authors of the original Czech production: Magdaléna Sodomková and Brit Jensen. Photos: Lâm Duc Hiên BBC producers: Clare Walker and Tom Alban.",
       url: "https://www.bbc.co.uk/programmes/p047g9tg",
       img: "Pictures/Immigrants.jpg",
-      big: 1.9
+      big: 2
     },
     {
       name: "TOLD UNTOLD (CZ)",
@@ -481,3 +481,4 @@ closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)"; // make close audio controls button dissappear.
 
 });
+
