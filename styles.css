@@ -92,7 +92,6 @@ footer h2 {
 
 footer h3 {
     font-size: 25px;
-    white-space: nowrap;
     margin: 0;
     margin-left: 4vw;
 }
@@ -373,3 +372,4 @@ line {
         margin-left: 10px;
     }
 }
+
