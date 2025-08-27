@@ -94,6 +94,7 @@ footer h3 {
     font-size: 25px;
     margin: 0;
     margin-left: 4vw;
+    margin-right: 10px;
 }
 
 #slogan {
@@ -372,4 +373,5 @@ line {
         margin-left: 10px;
     }
 }
+
 
