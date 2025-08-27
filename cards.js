@@ -159,7 +159,7 @@ const documentaryCardsContent = [
       name: "Alexander and Lizethe (DK)",
       text: "For: Radio24syv, 2014<br><br>A young woman comes out as a lesbian after high school. But at the age of 27, she undergoes gender reassignment surgery and now is Alexander and alone. Seven years later Alexander meets Lizethe from Colombia and a complicated love story begins to unfold. Edit and music: Kim G. Hansen.",
       img: "Pictures/LGBT.jpg",
-      audio: "https://www.dropbox.com/scl/fi/f9eqvac7xne1nvlvlepsa/Alexander-og-Lizethe.mp3?rlkey=a2k3xgsotes77fz2ww275bpua&st=xpm27cpm&raw=1",
+      audio: "Sounds/Alexander og Lizethe.mp3",
       big: 1.4
     },
     {
@@ -424,7 +424,17 @@ document.querySelectorAll(".play-pause").forEach((button) => {
             lineArea.appendChild(dot); // append the dot to the canvas.
             document.querySelector(".current-time").innerHTML = getTime(audio.currentTime); // render currentTime.
             // if the audio is finished set the button icon to replay:
-            if (audio.currentTime === audio.duration) {button.innerHTML = "↺"; playPauseAudio.innerHTML = "↺"}
+            if (audio.currentTime === audio.duration) {
+              button.innerHTML = "↺"; playPauseAudio.innerHTML = "↺"
+            } else if (isNaN(audio.duration)) {
+              audio.pause(); // pause the audio.
+              button.innerHTML = "▶"; // set the button icon of the card.
+              playPauseAudio.innerHTML = "▶"; // set the button icon of the audio controls.
+              audioControls.style.transform = "scaleY(0)"; // make audio controls dissappear.
+              clearInterval(updateAudioControl); // clear the interval for rendering progress dot and currentTime.
+              setTimeout(() => {alert("Episode temporarily unavailable.");}, 500)
+            }
+
           }, 200);
 
           // if clicked on the line change currentTime:
@@ -478,7 +488,6 @@ document.querySelector(".minus15").addEventListener("click", () => {
 
 // close button:
 closeBtn.addEventListener("click", () => {
-  audioControls.style.transform = "scaleY(0)"; // make close audio controls button dissappear.
-
+  audioControls.style.transform = "scaleY(0)";
 });
 
