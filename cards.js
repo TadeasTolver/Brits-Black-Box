@@ -195,7 +195,7 @@ const documentaryCardsContent = [
       text: "For: Radio24syv, 2013<br><br> Tom Sonntag has muscular dystrophy. Day by day, hour by hour he is getting weaker. Soon he will no longer be able to lift his arms and play his beloved Steinway grand piano. But now he is building a time machine that will bring him back to music... Edit: Kim G. Hansen.",
       img: "Pictures/Piano.jpg",
       audio: "https://www.dropbox.com/scl/fi/avc5jek6wqzmno7533rt2/Tom.wav?rlkey=zk0q095mxbkw9xwjz5e8ddxup&st=fdj5zsae&raw=1",
-      big: 1.3
+      big: 1.5
     },
     {
       name: "One day up, the next down (CZ)",
@@ -490,5 +490,6 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+
 
 
