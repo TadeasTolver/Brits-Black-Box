@@ -47,7 +47,7 @@ const documentaryCardsContent = [
       text: `For: The Daily Deník Referendum, 2021<br><br> An investigative series about Miroslav Trávníček who was a succesful trader with agricultural commodities, until he wound up behind bars for being a VAT carousel master mind. But he isn't. It turns out the police files contain the real culprits and there are threads leading from Mr. Trávníček’s case back to the oligarch prime minister, Andrej Babiš.`,
       url: "https://denikreferendum.cz/akceolej",
       img: "Pictures/olej.jpg",
-      big: 1.5
+      big: 1.7
     },
     {
       name: "Lockdown in Stereo (CZ)",
@@ -105,14 +105,14 @@ const documentaryCardsContent = [
       text: "For: Czech Radio, 2017<br><br>A presenter on Romanian radio gets a chance only few gets - to tell her teenage music idol, what his music meant to her. But more than a few things come between mutual understanding<br><br>In cooperation with Maria Balabas and Jiří Slavičinský, mix: Roman Špála",
       url: "https://www.youtube.com/watch?v=Jc-EyjnmGi4",
       img: "https://i.ytimg.com/vi/Jc-EyjnmGi4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCJF0dv_B8ZGh8z2NgpOsW57aESkQ",
-      big: 1.3
+      big: 1.5
     },
     {
       name: "Yusra, Swim for Your Life (EN)",
       text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in august 2015 and followed her journey all the way to Rio.<br><br>Authors of the original Czech production: Magdaléna Sodomková and Brit Jensen. Photos: Lâm Duc Hiên BBC producers: Clare Walker and Tom Alban.",
       url: "https://www.bbc.co.uk/programmes/p047g9tg",
       img: "Pictures/Immigrants.jpg",
-      big: 2
+      big: 2.2
     },
     {
       name: "TOLD UNTOLD (CZ)",
@@ -133,7 +133,7 @@ const documentaryCardsContent = [
       text: "For Radio24syv, 2016<br><br> Abortion is taboo. Every year there are more than a thousand women who have a prolonged mental breakdown after an induced abortion. Often the reaction is \"You could just have chosen differently.\" Brit Jensen and Rosa Marie Frang wants to change that... even though they are 100% in favor of free abortion!",
       img: "Pictures/Cloud.jpeg",
       audio: "https://www.dropbox.com/scl/fi/irul6ev6agax5j0g4tf0k/It-looks-like-cotton.wav?rlkey=hn0m3rkeu4dhdf0zyhuhslpd7&st=j3x3c87a&raw=1",
-      big: 1.4
+      big: 1.6
     },
     {
       name: "Nothing To Brag About (CZ)",
@@ -174,7 +174,7 @@ const documentaryCardsContent = [
       text: "For: ABC, 2014<br><br>Oleh Krykavskyy is a young lawyer, who kept an audio diary during the events on the Maidan square in Kiev this year. We meet his friends: Inna who prepared food for the freezing protesters in Kiev, Syomkin who built barricades and mixed molotov cocktails as well as Alex from Eastern Ukraine who desperately wants order restored, and Oleh’s uncle, a Police Colonel, who in a decisive moment chose to protect the protesters.",
       url: "https://www.abc.net.au/listen/programs/360-documentaries/i-have-been-to-maidan-today/5724852",
       img: "Pictures/Tough guys.jpg",
-      big: 1.65
+      big: 1.85
     },
     {
       name: "The Substitute (DK)",
@@ -490,6 +490,7 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+
 
 
 
