@@ -9,6 +9,11 @@ body {
     overflow-x: hidden;
 }
 
+button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
 .nav {
     display: flex;
     width: 100vw;
@@ -374,6 +379,7 @@ line {
         margin-left: 10px;
     }
 }
+
 
 
 
