@@ -159,7 +159,7 @@ const documentaryCardsContent = [
       name: "Alexander and Lizethe (DK)",
       text: "For: Radio24syv, 2014<br><br>A young woman comes out as a lesbian after high school. But at the age of 27, she undergoes gender reassignment surgery and now is Alexander and alone. Seven years later Alexander meets Lizethe from Colombia and a complicated love story begins to unfold. Edit and music: Kim G. Hansen.",
       img: "Pictures/LGBT.jpg",
-      audio: "Sounds/Alexander og Lizethe.mp3",
+      audio: "https://www.dropbox.com/scl/fi/f9eqvac7xne1nvlvlepsa/Alexander-og-Lizethe.mp3?rlkey=a2k3xgsotes77fz2ww275bpua&st=zqgpef7x&raw=1",
       big: 1.4
     },
     {
@@ -490,4 +490,5 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+
 
