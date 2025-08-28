@@ -282,9 +282,9 @@ if (pageName === "Dramaturgy") {
             <div class="card">
                 <img class="card-img" src="${card.img}"/>
                 <div class="card-hidden">
+                    <a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>
                     <h3 class="card-name">${card.name}</h3>
                     <p class="card-text">${card.text}</p>
-                    <a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>
                 </div>
             </div>
         `
@@ -298,14 +298,14 @@ if (pageName === "Dramaturgy") {
                 <div class="card-hidden">
                     <h3 class="card-name">${card.name}</h3>
 
-                      ${card.audio ? `<audio class="audio-${index}">
-                        <source src="${card.audio}" type="audio/mpeg">
-                          </audio>
-                        <button class="play-pause" id="play-pause-${index}">▶</button>
-                        `
-                        : ""}
+                    ${card.url ? `<a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>` : ""}  
+                    ${card.audio ? `<audio class="audio-${index}">
+                    <source src="${card.audio}" type="audio/mpeg">
+                      </audio>
+                    <button class="play-pause" id="play-pause-${index}">▶</button>
+                    `
+                    : ""}
                     <p class="card-text">${card.text}</p>
-                    ${card.url ? `<a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>` : ""}
                 </div>
             </div>
 
@@ -490,6 +490,7 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+
 
 
 
