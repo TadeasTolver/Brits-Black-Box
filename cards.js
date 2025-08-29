@@ -282,8 +282,8 @@ if (pageName === "Dramaturgy") {
             <div class="card">
                 <img class="card-img" src="${card.img}"/>
                 <div class="card-hidden">
-                    <a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>
                     <h3 class="card-name">${card.name}</h3>
+                    <a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>
                     <p class="card-text">${card.text}</p>
                 </div>
             </div>
@@ -490,6 +490,7 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+
 
 
 
