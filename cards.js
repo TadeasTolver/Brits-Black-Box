@@ -332,8 +332,8 @@ hiddenCards.forEach((card, index) => {
     const closeCard = () => {
         card.style.opacity = "0";
         cardImgs[index].style.opacity = "1";
-        cardImgs[index].style.filter = "blur(0)";
-        cardImgs[index].style.transform = 'scaleY(1)';
+        cardImgs[index].style.filter = "";
+        cardImgs[index].style.transform = "";
         cardImgs[index].style.zIndex = "0";
         cardImgs[index].style.border = "none";
         document.querySelectorAll(".card").forEach((c, i) => {
@@ -349,7 +349,7 @@ hiddenCards.forEach((card, index) => {
             (i != index) ? c.style.pointerEvents = "none" : "" ; // make it so you can't hover over any other cards.
           });
           card.style.opacity = "1";
-          cardImgs[index].style.filter = "blur(10px) saturate(5%)";
+          cardImgs[index].style.filter = "blur(3px) contrast(0%)";
           cardImgs[index].style.zIndex = "1";
           cardImgs[index].style.transform = `scaleY(${pageName === "Audio-documentary" ? documentaryCardsContent[index].big : dramaturgyCardsContent[index].big})`;
           cardImgs[index].style.border = "10px solid black";
@@ -490,6 +490,7 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+
 
 
 
