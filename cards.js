@@ -47,7 +47,7 @@ const documentaryCardsContent = [
       text: `For: The Daily Deník Referendum, 2021<br><br> An investigative series about Miroslav Trávníček who was a succesful trader with agricultural commodities, until he wound up behind bars for being a VAT carousel master mind. But he isn't. It turns out the police files contain the real culprits and there are threads leading from Mr. Trávníček’s case back to the oligarch prime minister, Andrej Babiš.`,
       url: "https://denikreferendum.cz/akceolej",
       img: "Pictures/olej.jpg",
-      big: 1.7
+      big: 1.5
     },
     {
       name: "Lockdown in Stereo (CZ)",
@@ -105,14 +105,14 @@ const documentaryCardsContent = [
       text: "For: Czech Radio, 2017<br><br>A presenter on Romanian radio gets a chance only few gets - to tell her teenage music idol, what his music meant to her. But more than a few things come between mutual understanding<br><br>In cooperation with Maria Balabas and Jiří Slavičinský, mix: Roman Špála",
       url: "https://www.youtube.com/watch?v=Jc-EyjnmGi4",
       img: "https://i.ytimg.com/vi/Jc-EyjnmGi4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCJF0dv_B8ZGh8z2NgpOsW57aESkQ",
-      big: 1.5
+      big: 1.3
     },
     {
       name: "Yusra, Swim for Your Life (EN)",
       text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in august 2015 and followed her journey all the way to Rio.<br><br>Authors of the original Czech production: Magdaléna Sodomková and Brit Jensen. Photos: Lâm Duc Hiên BBC producers: Clare Walker and Tom Alban.",
       url: "https://www.bbc.co.uk/programmes/p047g9tg",
       img: "Pictures/Immigrants.jpg",
-      big: 2.2
+      big: 2
     },
     {
       name: "TOLD UNTOLD (CZ)",
@@ -133,7 +133,7 @@ const documentaryCardsContent = [
       text: "For Radio24syv, 2016<br><br> Abortion is taboo. Every year there are more than a thousand women who have a prolonged mental breakdown after an induced abortion. Often the reaction is \"You could just have chosen differently.\" Brit Jensen and Rosa Marie Frang wants to change that... even though they are 100% in favor of free abortion!",
       img: "Pictures/Cloud.jpeg",
       audio: "https://www.dropbox.com/scl/fi/irul6ev6agax5j0g4tf0k/It-looks-like-cotton.wav?rlkey=hn0m3rkeu4dhdf0zyhuhslpd7&st=j3x3c87a&raw=1",
-      big: 1.6
+      big: 1.4
     },
     {
       name: "Nothing To Brag About (CZ)",
@@ -159,7 +159,7 @@ const documentaryCardsContent = [
       name: "Alexander and Lizethe (DK)",
       text: "For: Radio24syv, 2014<br><br>A young woman comes out as a lesbian after high school. But at the age of 27, she undergoes gender reassignment surgery and now is Alexander and alone. Seven years later Alexander meets Lizethe from Colombia and a complicated love story begins to unfold. Edit and music: Kim G. Hansen.",
       img: "Pictures/LGBT.jpg",
-      audio: "https://www.dropbox.com/scl/fi/f9eqvac7xne1nvlvlepsa/Alexander-og-Lizethe.mp3?rlkey=a2k3xgsotes77fz2ww275bpua&st=zqgpef7x&raw=1",
+      audio: "Sounds/Alexander og Lizethe.mp3",
       big: 1.4
     },
     {
@@ -174,7 +174,7 @@ const documentaryCardsContent = [
       text: "For: ABC, 2014<br><br>Oleh Krykavskyy is a young lawyer, who kept an audio diary during the events on the Maidan square in Kiev this year. We meet his friends: Inna who prepared food for the freezing protesters in Kiev, Syomkin who built barricades and mixed molotov cocktails as well as Alex from Eastern Ukraine who desperately wants order restored, and Oleh’s uncle, a Police Colonel, who in a decisive moment chose to protect the protesters.",
       url: "https://www.abc.net.au/listen/programs/360-documentaries/i-have-been-to-maidan-today/5724852",
       img: "Pictures/Tough guys.jpg",
-      big: 1.85
+      big: 1.65
     },
     {
       name: "The Substitute (DK)",
@@ -208,22 +208,34 @@ const documentaryCardsContent = [
 
 const dramaturgyCardsContent = [
     {
+      name: "What No One Sees, 2025 (DK)",
+      text: "A monthly podcast that explores, debates, and documents life with visual impairment. I am helping out as a producer and editor.",
+      url: "https://blind.dk/podcast/alt-det-som-ingen-ser/",
+      img: "Pictures/sees.jpg"
+    },
+    {
+      name: "Ruths Hus, 2024 (DK)",
+      text: "A documentary podcasts series by Krister Moltzen about the Danish Christian sect “Faderhuset.”<br><br>I researched and recorded the Czech strand of the story.",
+      url: "https://thirdear.studio/da/pods/ruth",
+      img: "Pictures/ruth.jpg"
+    },
+    {
       name: "Rosas Reality Radio (DK)",
       text: "A Danish audio documentary and sound piece about artists working conditions.",
       url: "https://www.rosasreality.com/rosas-reality-radio/",
       img: "https://www.rosasreality.com/wp-content/uploads/2024/02/RRR_cover_epi_4.png",
     },
     {
-      name: "Hate Free (CZ)",
-      text: "A Czech documentary podcast about hate crime, minority rights and taboo breaking.",
-      url: "https://www.hatefree.cz/audio/exteriery",
-      img: "https://www.hatefree.cz/images-cache/front/design/no-image/image_variants/png/no-image-w600.png",
-    },
-    {
       name: "DokuVlna (CZ)",
       text: "Documentaries at Czech Radio's youth channel.",
       url: "https://wave.rozhlas.cz/dokuvlna-5179683",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzmqQyovtj2Qc-gVP0dsYx6Eu2DcNEndY3lA&s",
+    },
+    {
+      name: "Hate Free (CZ)",
+      text: "A Czech documentary podcast about hate crime, minority rights and taboo breaking.",
+      url: "https://www.hatefree.cz/audio/exteriery",
+      img: "https://www.hatefree.cz/images-cache/front/design/no-image/image_variants/png/no-image-w600.png",
     },
     {
       name: "The Eagle Karina Has Died (CZ)",
@@ -254,18 +266,6 @@ const dramaturgyCardsContent = [
       text: "I was the commissioning editor and dramaturge for this cycle of short-form documentary of Czech Radio’s culture channel.",
       url: "https://www.mujrozhlas.cz/dokumoment",
       img: "Pictures/dokumoment.jpg",
-    },
-    {
-      name: "What No One Sees, 2025 (DK)",
-      text: "A monthly podcast that explores, debates, and documents life with visual impairment. I am helping out as a producer and editor.",
-      url: "https://blind.dk/podcast/alt-det-som-ingen-ser/",
-      img: "Pictures/sees.jpg"
-    },
-    {
-      name: "Ruths Hus, 2024 (DK)",
-      text: "A documentary podcasts series by Krister Moltzen about the Danish Christian sect “Faderhuset.”<br><br>I researched and recorded the Czech strand of the story.",
-      url: "https://thirdear.studio/da/pods/ruth",
-      img: "Pictures/ruth.jpg"
     }
 ];
 
@@ -298,14 +298,16 @@ if (pageName === "Dramaturgy") {
                 <div class="card-hidden">
                     <h3 class="card-name">${card.name}</h3>
 
-                    ${card.url ? `<a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>` : ""}  
+                    ${card.url ? `<a href="${card.url}" target="_blank" class="more-link"/>listen ...</a>` : ""}
+
                     ${card.audio ? `<audio class="audio-${index}">
-                    <source src="${card.audio}" type="audio/mpeg">
-                      </audio>
-                    <button class="play-pause" id="play-pause-${index}">▶</button>
-                    `
-                    : ""}
+                      <source src="${card.audio}" type="audio/mpeg">
+                        </audio>
+                      <button class="play-pause" id="play-pause-${index}">▶</button>
+                      `
+                      : ""}
                     <p class="card-text">${card.text}</p>
+
                 </div>
             </div>
 
@@ -333,7 +335,7 @@ hiddenCards.forEach((card, index) => {
         card.style.opacity = "0";
         cardImgs[index].style.opacity = "1";
         cardImgs[index].style.filter = "";
-        cardImgs[index].style.transform = "";
+        cardImgs[index].style.transform = '';
         cardImgs[index].style.zIndex = "0";
         cardImgs[index].style.border = "none";
         document.querySelectorAll(".card").forEach((c, i) => {
@@ -490,10 +492,3 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
-
-
-
-
-
-
-
