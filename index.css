@@ -1,5 +1,5 @@
 #index-heading {
-    font-family: "Nunito", Courier, slab-serif, sans-serif;
+    font-family: "Lora", sans-serif;
     color: #d43515;
     text-shadow: 0 0 10px white;
     text-align: center;
@@ -26,4 +26,5 @@ footer {
     .background {
         height: 70vh;
     }
+
 }
