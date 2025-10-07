@@ -22,9 +22,18 @@ footer {
     margin: 0;
 }
 
+#signature {
+    margin: 0;
+    margin-left: 4vw;
+    font-family: sans-serif;
+    color: rgb(217, 212, 212);
+    font-size: 11px;
+}
+
 @media (max-width: 800px) {
     .background {
         height: 70vh;
     }
 
 }
+
