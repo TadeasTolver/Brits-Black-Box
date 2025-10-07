@@ -8,7 +8,7 @@ const documentaryCardsContent = [
     {
       name: "Radio Dogs",
       text: "Long time friends, sound nerds and colleagues Jiří and Brit listen to and share audio documentaries",
-      url: "https://radiodogs.cz/cs",
+      url: "https://open.spotify.com/episode/6XDcJFvGXmZmTNB3u8aNaI?si=CbdychakScCvTwXso6C3jw",
       img: "Pictures/radio dogs.png"
     },
     {
@@ -65,7 +65,7 @@ const documentaryCardsContent = [
     {
       name: "In Ten Years (CZ)",
       text: "For: Czech Radio, 2020<br>My kid is eight and believes that the world will end in 10 years. This belief deeply disturbs his mother. Together they set out to figure out where the fear of the apocalypse stems from and what to do about it.",
-      url: "",
+      url: "https://www.mujrozhlas.cz/dokumoment/za-deset-let",
       img: "Pictures/za deset let.jpeg" 
     },
     {
@@ -492,3 +492,4 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+
