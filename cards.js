@@ -8,7 +8,7 @@ const documentaryCardsContent = [
     {
       name: "Radio Dogs",
       text: "Long time friends, sound nerds and colleagues Jiří and Brit listen to and share audio documentaries",
-      url: "https://open.spotify.com/episode/6XDcJFvGXmZmTNB3u8aNaI?si=CbdychakScCvTwXso6C3jw",
+      url: "https://radiodogs.cz/cs",
       img: "Pictures/radio dogs.png"
     },
     {
@@ -22,7 +22,7 @@ const documentaryCardsContent = [
       name: "2049 (DK)",
       text: "For: Third Ear, 2024<br><br> A podcast series about climate change and future travel. Futurist and host Denis Rivin travels to the year 2049 together with 25 people – scientists, wise minds, activists – to see how the climate solutions they were working on back in 2024, have turned out.",
       url: "https://thirdear.studio/da/pods/2049",
-      img: "https://thirdear.studio/_ipx/w_1920,q_75/https%3A%2F%2Fa.storyblok.com%2Ff%2F185588%2F2048x2048%2Fc104973789%2F2049_3_final_2048x2048px.jpg%2Fm%2F?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F185588%2F2048x2048%2Fc104973789%2F2049_3_final_2048x2048px.jpg%2Fm%2F&w=1920&q=75",
+      img: "Pictures/2049.jpg",
     },
     {
       name: "Hotel Hate (CZ)",
@@ -32,7 +32,7 @@ const documentaryCardsContent = [
     },
     {
       name: "Who Cares? (CZ)",
-      text: "For: Charles University, 2022<br><br> Stories about and by people, who has lived institutional lives in Czechoslovakia/Czechia - and survived. 8 stories that want to challenge established ideas of otherness, vulnerability and care.",
+      text: "For: Charles University, 2024<br><br> Stories about and by people, who has lived institutional lives in Czechoslovakia/Czechia - and survived. 8 stories that want to challenge established ideas of otherness, vulnerability and care.",
       url: "https://kohobytozajimalo.transistor.fm/",
       img: "https://img.transistor.fm/-uGm_-fxYfywYJQfDi-p23z-Tdr5kkqli9tDICCogIs/rs:fit:600:288:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9sb2dv/cy9zaXRlLzE1MTQ1/LzBfVVZPRF9FUEla/T0RBLnBuZw.webp",
     },
@@ -65,7 +65,7 @@ const documentaryCardsContent = [
     {
       name: "In Ten Years (CZ)",
       text: "For: Czech Radio, 2020<br>My kid is eight and believes that the world will end in 10 years. This belief deeply disturbs his mother. Together they set out to figure out where the fear of the apocalypse stems from and what to do about it.",
-      url: "https://www.mujrozhlas.cz/dokumoment/za-deset-let",
+      url: "",
       img: "Pictures/za deset let.jpeg" 
     },
     {
@@ -492,4 +492,3 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
-
