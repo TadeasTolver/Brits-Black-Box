@@ -1,10 +1,20 @@
+@font-face {
+    font-family: "denim-bold";
+    src: url("Fonts/DenimINKWD-Bold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "denim-regular";
+    src: url("Fonts/DenimINKWD-Regular.woff2") format("truetype");
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: black;
     display: flex;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
+    font-family: "denim-regular", sans-serif;
     color: whitesmoke;
     overflow-x: hidden;
 }
@@ -17,6 +27,7 @@ button {
 }
 
 .nav {
+    font-family: "denim-bold", sans-serif;
     display: flex;
     width: 100vw;
     justify-content: left;
@@ -79,6 +90,7 @@ button {
 }
 
 footer {
+    color: black;
     width: 100vw;
     position: relative;
     display: flex;
@@ -86,9 +98,9 @@ footer {
     margin-top: 7vw;
     height: 250px;
     align-items: center;
-    font-family: "Lora";
-    background-color: #d43515;
-    border-top: 2px solid whitesmoke;
+    font-family: "denim-regular", sans-serif;
+    background-color: whitesmoke;
+    border-top: 2px solid #d43515;
 }
 
 footer h2 {
@@ -248,18 +260,19 @@ footer h3 {
     margin: 0;
     width: 50px;
     aspect-ratio: 1/1;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.365);
     border-radius: 10%;
     font-size: 30px;
     cursor: pointer;
 }
 
 .minus15, .plus15 {
-    color: black;
-    border: 2px solid black;
+    color: rgba(0, 0, 0, 0.894);
+    border: 2px solid rgba(0, 0, 0, 0.365);
     border-radius: 10%;
     cursor: pointer;
     transition: opacity 0.3s ease-in;
+    padding: 5px;
 }
 
 .time-con, .audio-buttons-con {
