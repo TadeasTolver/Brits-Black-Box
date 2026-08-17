@@ -241,7 +241,7 @@ const dramaturgyCardsContent = [
       name: "The Eagle Karina Has Died (CZ)",
       text: "An ecological true crime series about poison in Czech forrests.",
       url: "https://audionaut.cz/podcasty/orlicekarinazemrela/",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs6i10e6DcEjNiSleaHcHy6Ln6PcgDZVqtBw&s",
+      img: "Pictures/orlicekarinazemrela.jpg",
     },
     {
       name: "GenZ (CZ)",
