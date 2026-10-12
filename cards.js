@@ -1,5 +1,127 @@
 const documentaryCardsContent = [
     {
+      name: "Hotel Hate (CZ)",
+      text: "For: Hate Free, 2023<br><br>A story about lesbian cows, rusty cunts and fags with crooked teeth. An exploration of misogyny and homophobia in contemporary Czechia.<br><br>With Adam Voneš and Lukáš Houdek",
+      url: "https://en.banguoja.lt/neapykantos-viesbutis",
+      img: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/17514718/17514718-1687697716252-89e52edfe6bd5.jpg",
+      big: 1.1
+    },
+    {
+      name: "Anatomy of Fear (CZ)",
+      text: `For: Audionaut, 2020<br><br>“I fear that which I cannot see.” Anatomy of Fear is an in-depth exploration of one emotion captured in five true stories. A series of intimate micro-horrors in sound.<br><br>With Jiří Slavičínský and Martin Ožvold`,
+      url: "https://audionaut.cz/podcasty/anatomie-strachu/",
+      img: "Pictures/strach.png",
+      big: 1.1
+    },
+    {
+      name: "Mathematics of Crime (CZ)",
+      text: "Czechia’s very first true crime podcast. An investigation revealing the grave implications to justice caused by a court-appointed expert and media darling nick-named “The Mathematician of Crime.”<br><br>The podcast series was later adapted into a TV miniseries of the same name.",
+      url: "https://matematikazlocinu.cz/",
+      img: "Pictures/Mat. Zločinů.jpg",
+      big: 1.2
+    },
+    {
+      name: "Das Kapital (EN)",
+      text: "For: BBC Radio 3, 2017<br><br>Tracing the story of a peculiar red parrot, bought in a Prague toy store, back to where it came from, and ultimately, back to Marx.<br><br>With Martin Ožvold",
+      url: "https://www.bbc.co.uk/programmes/b09h30v2",
+      img: "Pictures/Parrot.jpg"
+    },
+    {
+      name: "The House at the End of the Road (CZ)",
+      text: "For: The Daily Denik Referendum, 2025<br><br>When prominent Czech architect Růžena Žertová became terminally ill in 2019, she had two final wishes: to die at home and to leave her beloved house to a foundation. But when a doctor became involved, neither wish was fulfilled. What happened?<br><br>With Gaby Khazalová and Martin Ožvold",
+      url: "https://shows.acast.com/dm-v-zakouti",
+      img: "Pictures/dum.jpeg",
+      big: 1.5
+    },
+    {
+      name: "A New Tense (EN)",
+      text: "For: BBC Radio 4, 2022<br><br>A story about learning the language of loss.<br>With Martin Ožvold and Eleanor McDowall",
+      url: "https://www.bbc.co.uk/sounds/play/m001c6gn",
+      img: "Pictures/volcano.jpg",
+    },
+    {
+      name: "The Grand Plan (CZ)",
+      text: "For: Czech Radio, 2015<br><br>Claire is 87 and lives in a house on an island in Lake Ontario, Canada. She is looking for love, but finding it isn’t easy. Then Brit enters the picture, and a grand plan begins to take shape. With Eva Nachmilnerová and Jiří Slavičínský",
+      url: "https://www.radioatlas.org/the-grand-plan/",
+      img: "Pictures/Lake.jpeg",
+      big: 1.1
+    },    
+    {
+      name: "Lockdown in Stereo (CZ)",
+      text: "Independent production, 2021<br><br>A short piece about living the personal consequences of media censorship.<br><br>With Adam Voneš",
+      url: "https://www.youtube.com/watch?v=Z52Yhk_c0m8",
+      img: "Pictures/bowl.jpeg",
+    },
+    {
+      name: "Action Oil (CZ)",
+      text: `For: The Daily Deník Referendum, 2021<br><br>Miroslav Trávníček was a successful agricultural commodities trader until he found himself behind bars, accused of masterminding a VAT carousel fraud. But was he really the man behind it? An investigation uncovers other suspects and a trail that leads all the way to Andrej Babiš, the billionaire businessman who became Czech prime minister.<br><br>With Zuzana Vlasatá, Adam Voneš and Ondřej Merta`,
+      url: "https://denikreferendum.cz/akceolej",
+      img: "Pictures/olej.jpg",
+      big: 1.7
+    },
+    {
+      name: "Heck (CZ)",
+      text: `For: Czech Radio, 2019<br><br>A personal odyssey into the heart of a Czech Christmas tradition, recorded at home with two frightened children and one equally frightened parent.<br><br>With Martin Ožvold and Viola Ježková`,
+      url: "https://vltava.rozhlas.cz/peklicko-oceneny-dokument-brit-jensen-o-mikulasske-tradici-7697995",
+      img: "Pictures/čerti.jpg",
+      big: 1.1
+    },
+    {
+      name: "Ella from Prague (CZ)",
+      text: "For Radio24syv, 2015<br><br>Shortly after World War II, young Danish woman Ella Thygesen marries Ladislav, a wealthy Czechoslovak. But when the communist coup turns their lives upside down, questions begin to emerge about Ladislav himself, and whether he is really who he claims to be.<br><br>With Rikke Houd and Kim G. Hansen",
+      url: "https://www.youtube.com/watch?v=YRPnoGEmh3E",
+      img: "Pictures/Ella from Prague.jpg",
+      big: 1.4
+    },
+    {
+      name: "The Cassette (CZ)",
+      text: "For: Czech Radio, 2017<br><br>A Romanian radio presenter gets a rare chance: to meet Bill Drummond from The KLF, her teenage music idol, and tell him what his music meant to her. But meeting your hero is one thing. Understanding each other is another.<br><br>With Maria Balabas, Jiří Slavičínský and Roman Špála",
+      url: "https://www.youtube.com/watch?v=Jc-EyjnmGi4",
+      img: "https://i.ytimg.com/vi/Jc-EyjnmGi4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCJF0dv_B8ZGh8z2NgpOsW57aESkQ",
+      big: 1.3
+    },
+    {
+      name: "There is a river flowing in the mountains (CZ)",
+      text: "For: Czech Radio, 2018<br><br>A mission to make a radio programme in Myanmar about the devastating effects of flooding takes an unexpected turn when a mysterious white car begins appearing wherever the reporters go. The secret police seem to be watching. And suddenly, the story is also about the fear of being watched.<br><br>With Jiří Slavičínský, Viola Ježková and Roman Špála",
+      url: "https://cestyzavodou.rozhlas.cz/",
+      img: "Pictures/Myanmar.jpg",
+      big: 1.5
+    },
+    {
+      name: "It Looks Like Cotton (DK)",
+      text: "For Radio24syv, 2016<br><br>Can you support the right to abortion and still talk about the pain that can follow one? Women struggling emotionally after an abortion are sometimes met with: “You could have chosen differently.” Brit Jensen and Rosa Marie Frang set out to challenge that silence, while remaining unequivocally pro-choice.",
+      img: "Pictures/Cloud.jpeg",
+      audio: "https://www.dropbox.com/scl/fi/irul6ev6agax5j0g4tf0k/It-looks-like-cotton.wav?rlkey=hn0m3rkeu4dhdf0zyhuhslpd7&st=j3x3c87a&raw=1",
+      big: 1.4
+    }, 
+    {
+      name: "Nothing To Brag About (CZ)",
+      text: "For: Czech Radio and Iron Curtain Project, 2016<br><br>Before 1989, millions of Czechoslovaks were members of the Communist Party. Today, they seem to have vanished into thin air. Brit sets out to find a former party member willing to talk. How hard can it be? Quite hard, as it turns out.<br><br>With Román Špála and Eva Nachmilnerová",
+      url: "",
+      img: "Pictures/KSC knizka.jpeg",
+      big: 1.3
+    },
+    {
+      name: "The Substitute (DK)",
+      text: "For Radio24syy, 2013<br><br>Brit takes a temporary job at an accounting firm just as the busy season approaches. She is replacing an accountant who has died. But what do you say when the phone rings and clients ask to speak to him? A story about human chaos intruding on a world built of refined orderliness.<br><br>Jon XXX and Kim G. Hansen",
+      img: "Pictures/The Substitute.jpg",
+      audio: "https://www.dropbox.com/scl/fi/zsqi35gk1jsyvu5o213md/sub.mp3?rlkey=rni6uy9j9wh4ovo8ldqlhasta&st=eaow5tos&raw=1",
+      big: 1.4
+    },    
+    {
+      name: "Yusra, Swim for Your Life (EN)",
+      text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in August 2015 and followed her journey all the way to Rio.",
+      url: "https://www.bbc.co.uk/programmes/p047g9tg",
+      img: "Pictures/Immigrants.jpg",
+      big: 1.5
+    },
+    {
+      name: "In Ten Years (CZ)",
+      text: "For: Czech Radio, 2020<br>Brit’s eight-year-old kid believes the world will end in ten years. His certainty deeply unsettles her. Together, mother and son set out to discover where his fear of the apocalypse comes from, and what they can do about it.",
+      url: "",
+      img: "Pictures/za deset let.jpeg" 
+    },
+    {
       name: "Leave No One Behind (DK)",
       text: "For: The Danish Institute for the Blind<br><br>Svetlana, Yamin and Ruta have experienced invasion, coup and war. But these three women have worse odds than many others, because they all have a sight impairment.",
       url: "https://shows.acast.com/639c2162509aef001197329a/65251790a416f1001166ac6e",
@@ -12,23 +134,11 @@ const documentaryCardsContent = [
       img: "Pictures/radio dogs.png"
     },
     {
-      name: "The House at the End of the Road (CZ)",
-      text: "For: The Daily Denik Referendum, 2025<br><br> When Růžena Žertová - a prominent Czech architect - fell terminally ill in 2019, she had two last wishes: To die at home and to bequeath her beloved house to a foundation. But a certain doctor became involved and Neither came true. Investigative journalist Gaby Khazalová unravels what happened.",
-      url: "https://shows.acast.com/dm-v-zakouti",
-      img: "Pictures/dum.jpeg",
-      big: 1.5
-    },
-    {
       name: "2049 (DK)",
       text: "For: Third Ear, 2024<br><br> A podcast series about climate change and future travel. Futurist and host Denis Rivin travels to the year 2049 together with 25 people – scientists, wise minds, activists – to see how the climate solutions they were working on back in 2024, have turned out.",
       url: "https://thirdear.studio/da/pods/2049",
       img: "Pictures/2049.jpg",
-    },
-    {
-      name: "Hotel Hate (CZ)",
-      text: "For: Hate Free, 2023<br><br> A story about lesbian cows, rusty cunts and fags with crooked teeth. An exploration of the current state of mysogyny and homofobia in Czechia.",
-      url: "https://www.hatefree.cz/audio/exteriery/hotel-hate-audiodokument-o-nenavisti-jak-jsme-ji-zazily",
-      img: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/17514718/17514718-1687697716252-89e52edfe6bd5.jpg"
+      big: 1.1
     },
     {
       name: "Who Cares? (CZ)",
@@ -37,82 +147,10 @@ const documentaryCardsContent = [
       img: "https://img.transistor.fm/-uGm_-fxYfywYJQfDi-p23z-Tdr5kkqli9tDICCogIs/rs:fit:600:288:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9sb2dv/cy9zaXRlLzE1MTQ1/LzBfVVZPRF9FUEla/T0RBLnBuZw.webp",
     },
     {
-      name: "A New Tense (EN)",
-      text: "For: BBC Radio 4, 2022<br><br>A story about learning the language of loss.<br>Sound: Martin Ožvold<br>Editor: Eleanor McDowall",
-      url: "https://www.bbc.co.uk/sounds/play/m001c6gn",
-      img: "Pictures/volcano.jpg",
-    },
-    {
-      name: "Action Oil (CZ)",
-      text: `For: The Daily Deník Referendum, 2021<br><br> An investigative series about Miroslav Trávníček who was a succesful trader with agricultural commodities, until he wound up behind bars for being a VAT carousel master mind. But he isn't. It turns out the police files contain the real culprits and there are threads leading from Mr. Trávníček’s case back to the oligarch prime minister, Andrej Babiš.`,
-      url: "https://denikreferendum.cz/akceolej",
-      img: "Pictures/olej.jpg",
-      big: 1.5
-    },
-    {
-      name: "Lockdown in Stereo (CZ)",
-      text: "Independent production, 2021<br><br> A short piece about the personal consequences of media censorship.<br> Mix: Adam Voneš<br><br>/Winner of HearSay Festival 2021: Create Gold Award, Create GanBerla Award and Create Fearless Award/ Shortlisted at Third Coast Festival 2021",
-      url: "https://www.youtube.com/watch?v=Z52Yhk_c0m8",
-      img: "Pictures/bowl.jpeg",
-      big: 1.3
-    },
-    {
-      name: "Anatomy of Fear (CZ)",
-      text: `For: Audionaut, 2020<br><br>“I fear that which I cannot see.” Anatomy of Fear is an in-depth exploration of one emotion captured in five true stories. A series of intimate micro-horrors in sound.`,
-      url: "https://audionaut.cz/podcasty/anatomie-strachu/",
-      img: "Pictures/strach.png"
-    },
-    {
-      name: "In Ten Years (CZ)",
-      text: "For: Czech Radio, 2020<br>My kid is eight and believes that the world will end in 10 years. This belief deeply disturbs his mother. Together they set out to figure out where the fear of the apocalypse stems from and what to do about it.",
-      url: "",
-      img: "Pictures/za deset let.jpeg" 
-    },
-    {
-      name: "Peklíčko (CZ)",
-      text: `For: Czech Radio, 2019<br><br>A radio documentary and a personal odyssey to find the meaning behind the Czech Saint Nicholas tradition as well as a way to deal with it. Recorded in a home with two scared children and one scared parent.`,
-      url: "https://vltava.rozhlas.cz/peklicko-oceneny-dokument-brit-jensen-o-mikulasske-tradici-7697995",
-      img: "Pictures/čerti.jpg",
-    },
-    {
-      name: "There is a river flowing in the mountains (CZ)",
-      text: "For: Czech Radio, 2018<br><br>A mission to record a radio programme in Myanmar about how people suffer from flooding becomes hijacked by a white car appearing and reappearing. Apparently, the secret police has gotten involved, and so has the fear of them.",
-      url: "https://cestyzavodou.rozhlas.cz/",
-      img: "Pictures/Myanmar.jpg",
-      big: 1.2
-    },
-    {
-      name: "Mathematics of Crime (CZ)",
-      text: "This five-part non-fiction detective story takes place in courtrooms and prison cells. And continues until this day.<br><br>By investigative journalist Magdalena Sodomková and documentary maker Brit Jensen.<br><br>/The series was originally produced in 2018 for Czech public radio, but it was censored. The authors published it independently.",
-      url: "https://matematikazlocinu.cz/",
-      img: "Pictures/Mat. Zločinů.jpg",
-      big: 1.4
-    },
-    {
-      name: "Das Kapital (EN)",
-      text: "For: BBC Radio 3, 2017<br><br> The story of a peculiar, red parrot bought in a toy store in Prague.<br><br>Sound design: Martin Ožvold",
-      url: "https://www.bbc.co.uk/programmes/b09h30v2",
-      img: "Pictures/Parrot.jpg"
-    },
-    {
       name: "Reportage From an Ending (CZ)",
       text: "For: Czech Radio, 2017<br><br> A dream of a simple life close to nature is over. The man in the circus caravan on the meadow is packing up his things up to return to civilisation. An ending unfolds.",
       url: "https://wave.rozhlas.cz/novy-audiodokument-je-o-tom-jak-muze-dansky-dobrodruh-najit-stesti-na-louce-v-5990611",
       img: "Pictures/Torben a Maringotka.jpg",
-    },
-    {
-      name: "The Cassette (CZ)",
-      text: "For: Czech Radio, 2017<br><br>A presenter on Romanian radio gets a chance only few gets - to tell her teenage music idol, what his music meant to her. But more than a few things come between mutual understanding<br><br>In cooperation with Maria Balabas and Jiří Slavičinský, mix: Roman Špála",
-      url: "https://www.youtube.com/watch?v=Jc-EyjnmGi4",
-      img: "https://i.ytimg.com/vi/Jc-EyjnmGi4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCJF0dv_B8ZGh8z2NgpOsW57aESkQ",
-      big: 1.3
-    },
-    {
-      name: "Yusra, Swim for Your Life (EN)",
-      text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in august 2015 and followed her journey all the way to Rio.<br><br>Authors of the original Czech production: Magdaléna Sodomková and Brit Jensen. Photos: Lâm Duc Hiên BBC producers: Clare Walker and Tom Alban.",
-      url: "https://www.bbc.co.uk/programmes/p047g9tg",
-      img: "Pictures/Immigrants.jpg",
-      big: 2
     },
     {
       name: "TOLD UNTOLD (CZ)",
@@ -120,33 +158,6 @@ const documentaryCardsContent = [
       url: "https://www.ironcurtainproject.eu/en/stories/tolduntold/",
       img: "Pictures/Communist group.jpeg",
       big: 1.2
-    },
-    {
-      name: "The Grand Plan (CZ)",
-      text: "For: Czech Radio, 2015<br><br>Claire lives in her house on an island in Canada. She’s 87 years old and searching for love. But there is one problem: “The men are either sick or dead.” Claire writes a column in the newspaper about her hopeless search for a relationship. By chance, Brit comes across it and a grand plan starts taking shape, about how Claire may finally find love.",
-      url: "https://www.radioatlas.org/the-grand-plan/",
-      img: "Pictures/Lake.jpeg",
-      big: 1.4
-    },
-    {
-      name: "It Looks Like Cotton (DK)",
-      text: "For Radio24syv, 2016<br><br> Abortion is taboo. Every year there are more than a thousand women who have a prolonged mental breakdown after an induced abortion. Often the reaction is \"You could just have chosen differently.\" Brit Jensen and Rosa Marie Frang wants to change that... even though they are 100% in favor of free abortion!",
-      img: "Pictures/Cloud.jpeg",
-      audio: "https://www.dropbox.com/scl/fi/irul6ev6agax5j0g4tf0k/It-looks-like-cotton.wav?rlkey=hn0m3rkeu4dhdf0zyhuhslpd7&st=j3x3c87a&raw=1",
-      big: 1.4
-    },
-    {
-      name: "Nothing To Brag About (CZ)",
-      text: "For: Czech Radio and Iron Curtain Project, 2016<br><br>In Czechoslovakia before 1989 there used to be milions of communist party members. But today they have seemingly vanished into thin air. Brit wants to interview a former party member – how hard can it be? Quite hard, as it turns out.<br><br> Sound: Román Špála, dramaturgy: Eva Nachmilnerová.",
-      url: "",
-      img: "Pictures/KSC knizka.jpeg",
-      big: 1.5
-    },
-      {
-      name: "Ella from Prague (CZ)",
-      text: "For Radio24syv, 2015<br><br>Ella Thygesen, a young Danish woman, marries the wealthy Czechoslovak Ladislav shortly after the end of WW II. But soon the communist coup happens. Everything changes at an instant - and Ladislav may not be telling the whole truth.",
-      url: "https://www.youtube.com/watch?v=YRPnoGEmh3E",
-      img: "Pictures/Ella from Prague.jpg",
     },
     {
       name: "Everything in Life Has Its Price (DK)",
@@ -175,13 +186,6 @@ const documentaryCardsContent = [
       url: "https://www.abc.net.au/listen/programs/360-documentaries/i-have-been-to-maidan-today/5724852",
       img: "Pictures/Tough guys.jpg",
       big: 1.65
-    },
-    {
-      name: "The Substitute (DK)",
-      text: "For Radio24syy, 2013<br><br>Brit is hired as a temporary worker at an accounting firm. It is spring and the busy season is approaching. She is replacing an accountant who is no longer among the living. But what should Brit really say when the phone rings and clients ask for the man she is substituting for? How does one deal with human chaos in this world of refined orderliness?",
-      img: "Pictures/The Substitute.jpg",
-      audio: "https://www.dropbox.com/scl/fi/zsqi35gk1jsyvu5o213md/sub.mp3?rlkey=rni6uy9j9wh4ovo8ldqlhasta&st=eaow5tos&raw=1",
-      big: 1.5
     },
     {
       name: "Back to Snoldelev (DK)",
@@ -492,3 +496,4 @@ document.querySelector(".minus15").addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   audioControls.style.transform = "scaleY(0)";
 });
+``
