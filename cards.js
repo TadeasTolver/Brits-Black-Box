@@ -1,3 +1,5 @@
+// url: [["www.cz", "cz"], ["www.dk", "dk"], ["www.com", "en"]]
+
 const documentaryCardsContent = [
     {
       name: "Hotel Hate (CZ)",
@@ -92,7 +94,7 @@ const documentaryCardsContent = [
       text: "For Radio24syv, 2016<br><br>Can you support the right to abortion and still talk about the pain that can follow one? Women struggling emotionally after an abortion are sometimes met with: “You could have chosen differently.” Brit Jensen and Rosa Marie Frang set out to challenge that silence, while remaining unequivocally pro-choice.<br><br>With Rosa Marie Frang and Kim G. Hansen",
       img: "Pictures/Cloud.jpeg",
       audio: "https://www.dropbox.com/scl/fi/irul6ev6agax5j0g4tf0k/It-looks-like-cotton.wav?rlkey=hn0m3rkeu4dhdf0zyhuhslpd7&st=j3x3c87a&raw=1",
-      big: 1.4
+      big: 1.5
     }, 
     {
       name: "Nothing To Brag About (CZ)",
@@ -106,14 +108,14 @@ const documentaryCardsContent = [
       text: "For Radio24syy, 2013<br><br>Brit takes a temporary job at an accounting firm just as the busy season approaches. She is replacing an accountant who has died. But what do you say when the phone rings and clients ask to speak to him? A story about human chaos intruding on a world built of refined orderliness.<br><br>With Jón Hallur Stefánsson and Kim G. Hansen",
       img: "Pictures/The Substitute.jpg",
       audio: "https://www.dropbox.com/scl/fi/zsqi35gk1jsyvu5o213md/sub.mp3?rlkey=rni6uy9j9wh4ovo8ldqlhasta&st=eaow5tos&raw=1",
-      big: 1.4
+      big: 1.45
     },    
     {
       name: "Yusra, Swim for Your Life (EN)",
       text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in August 2015 and followed her journey all the way to Rio.<br><br>With Magdalena Sodomková, Jan Trojan and Lam Duc Hien",
       url: "https://www.bbc.co.uk/programmes/p047g9tg",
       img: "Pictures/Immigrants.jpg",
-      big: 1.5
+      big: 1.65
     },
     {
       name: "In Ten Years (CZ)",
@@ -126,7 +128,7 @@ const documentaryCardsContent = [
       text: "For: Czech Radio and the dutch Ironcurtainproject.eu, 2016<br><br>When a regime changes over night, certain stories become homeless, new taboos form.<br><br>ToldUntold is a documentary project that invited Czechs to tell their own untold stories from pre-89 Czechoslovakia.<br><br>With Emma Kollau and the Ironcurtainproject collective",
       url: "https://www.ironcurtainproject.eu/en/stories/tolduntold/",
       img: "Pictures/Communist group.jpeg",
-      big: 1.2
+      big: 1.4
     },
         {
       name: "To Die and Yet Survive",
