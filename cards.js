@@ -15,10 +15,10 @@ const documentaryCardsContent = [
     },
     {
       name: "Mathematics of Crime (CZ)",
-      text: "Czechia’s very first true crime podcast. An investigation revealing the grave implications to justice caused by a court-appointed expert and media darling nick-named “The Mathematician of Crime.”<br><br>The podcast series was later adapted into a TV miniseries of the same name.",
+      text: `Czechia’s very first true crime podcast. An investigation revealing the grave implications to justice caused by a court-appointed expert and media darling nick-named “The Mathematician of Crime.”<br><br>With Magdalena Sodomková, Martin Ožvold, Jakub Rataj and Roman Špála<br><br><a target="_blank" href="https://www.youtube.com/watch?v=Xm2HFspE9Vs">The podcast series was later adapted into a TV miniseries of the same name.</a>`,
       url: "https://matematikazlocinu.cz/",
       img: "Pictures/Mat. Zločinů.jpg",
-      big: 1.2
+      big: 1.5
     },
     {
       name: "Das Kapital (EN)",
@@ -35,13 +35,13 @@ const documentaryCardsContent = [
     },
     {
       name: "A New Tense (EN)",
-      text: "For: BBC Radio 4, 2022<br><br>A story about learning the language of loss.<br>With Martin Ožvold and Eleanor McDowall",
+      text: "For: BBC Radio 4, 2022<br><br>A story about learning the language of loss.<br><br>With Martin Ožvold and Eleanor McDowall",
       url: "https://www.bbc.co.uk/sounds/play/m001c6gn",
       img: "Pictures/volcano.jpg",
     },
     {
       name: "The Grand Plan (CZ)",
-      text: "For: Czech Radio, 2015<br><br>Claire is 87 and lives in a house on an island in Lake Ontario, Canada. She is looking for love, but finding it isn’t easy. Then Brit enters the picture, and a grand plan begins to take shape. With Eva Nachmilnerová and Jiří Slavičínský",
+      text: "For: Czech Radio, 2015<br><br>Claire is 87 and lives in a house on an island in Lake Ontario, Canada. She is looking for love, but finding it isn’t easy. Then Brit enters the picture, and a grand plan begins to take shape.<br><br>With Eva Nachmilnerová and Jiří Slavičínský",
       url: "https://www.radioatlas.org/the-grand-plan/",
       img: "Pictures/Lake.jpeg",
       big: 1.1
@@ -89,7 +89,7 @@ const documentaryCardsContent = [
     },
     {
       name: "It Looks Like Cotton (DK)",
-      text: "For Radio24syv, 2016<br><br>Can you support the right to abortion and still talk about the pain that can follow one? Women struggling emotionally after an abortion are sometimes met with: “You could have chosen differently.” Brit Jensen and Rosa Marie Frang set out to challenge that silence, while remaining unequivocally pro-choice.",
+      text: "For Radio24syv, 2016<br><br>Can you support the right to abortion and still talk about the pain that can follow one? Women struggling emotionally after an abortion are sometimes met with: “You could have chosen differently.” Brit Jensen and Rosa Marie Frang set out to challenge that silence, while remaining unequivocally pro-choice.<br><br>With Rosa Marie Frang and Kim G. Hansen",
       img: "Pictures/Cloud.jpeg",
       audio: "https://www.dropbox.com/scl/fi/irul6ev6agax5j0g4tf0k/It-looks-like-cotton.wav?rlkey=hn0m3rkeu4dhdf0zyhuhslpd7&st=j3x3c87a&raw=1",
       big: 1.4
@@ -103,7 +103,7 @@ const documentaryCardsContent = [
     },
     {
       name: "The Substitute (DK)",
-      text: "For Radio24syy, 2013<br><br>Brit takes a temporary job at an accounting firm just as the busy season approaches. She is replacing an accountant who has died. But what do you say when the phone rings and clients ask to speak to him? A story about human chaos intruding on a world built of refined orderliness.<br><br>Jon XXX and Kim G. Hansen",
+      text: "For Radio24syy, 2013<br><br>Brit takes a temporary job at an accounting firm just as the busy season approaches. She is replacing an accountant who has died. But what do you say when the phone rings and clients ask to speak to him? A story about human chaos intruding on a world built of refined orderliness.<br><br>With Jón Hallur Stefánsson and Kim G. Hansen",
       img: "Pictures/The Substitute.jpg",
       audio: "https://www.dropbox.com/scl/fi/zsqi35gk1jsyvu5o213md/sub.mp3?rlkey=rni6uy9j9wh4ovo8ldqlhasta&st=eaow5tos&raw=1",
       big: 1.4
@@ -117,19 +117,88 @@ const documentaryCardsContent = [
     },
     {
       name: "In Ten Years (CZ)",
-      text: "For: Czech Radio, 2020<br>Brit’s eight-year-old kid believes the world will end in ten years. His certainty deeply unsettles her. Together, mother and son set out to discover where his fear of the apocalypse comes from, and what they can do about it.",
+      text: "For: Czech Radio, 2020<br>Brit’s eight-year-old child believes the world will end in ten years. His certainty deeply unsettles her. Together, mother and son set out to discover where his fear of the apocalypse comes from, and what they can do about it. <br><br> With Radim Dlesk",
       url: "",
       img: "Pictures/za deset let.jpeg" 
     },
     {
+      name: "TOLD UNTOLD (CZ)",
+      text: "For: Czech Radio and the dutch Ironcurtainproject.eu, 2016<br><br>When a regime changes over night, certain stories become homeless, new taboos form.<br><br>ToldUntold is a documentary project that invited Czechs to tell their own untold stories from pre-89 Czechoslovakia.<br><br>With Emma Kollau and the Ironcurtainproject collective",
+      url: "https://www.ironcurtainproject.eu/en/stories/tolduntold/",
+      img: "Pictures/Communist group.jpeg",
+      big: 1.2
+    },
+        {
+      name: "To Die and Yet Survive",
+      text: "For: Czech Radio, 2019<br><br>Dan had been searching for decades when he finally tried smoking Bufo alvarius. As he told Brit about the experience, one thing stood out above all: Dan had experienced death, and yet survived. This is his account of what happened.",
+      url: "https://wave.rozhlas.cz/umrit-a-prezit-poslechnete-si-dokument-o-zazitku-s-jednim-z-nejsilnejsich-8109483",
+      img: "Pictures/todie.png",
+      big: 1.1
+    },
+    {
+      name: "Anatomy of a Moravian Village (CZ)",
+      text: "For: Czech Radio, 2014<br><br>In the hills of eastern Czechia, Brit finds a new home after moving from Denmark. Curious about the village’s past, she discovers a forgotten grave in the nearby woods, the resting place of an unknown German soldier. But there are other things buried here too. Slowly, stories begin to resurface, exposing old wounds and injustices that have never been laid to rest.<br><br>With Eva Nachmilnerová and Roman Špála",
+      url: "https://vltava.rozhlas.cz/anatomie-jedne-moravske-vesnice-5033229",
+      img: "Pictures/František a máma.jpeg",
+      big: 1.6
+    },    
+    {
+      name: "I Have Been To Maidan Today (EN)",
+      text: "For: ABC, 2014<br><br>Oleh Krykavskyy, a young lawyer based in Kiev, kept an audio diary during the events on the Maidan square in during the Winter and Spring of 2014.<br><br>With Claudia Tarranto",
+      url: "https://www.abc.net.au/listen/programs/360-documentaries/i-have-been-to-maidan-today/5724852",
+      img: "Pictures/Tough guys.jpg",
+      big: 1.1
+    },
+    {
+      name: "Back to Snoldelev (DK)",
+      text: "For Radio24syv, 2013<br><br>A story about traveling abroad – and about returning home. Home to the farm where the ancestors have lived for at least five generations, and home to the windswept region where King Snold ruled over Denmark's first capital in ancient times.<br><br>With Rikke Houd and Kim G. Hansen",
+      img: "Pictures/Snoldelev.jpeg",
+      audio: "https://www.dropbox.com/scl/fi/5nxgpuwud5c065tg0bdkx/Back-to-Snoldelev.mp3?rlkey=3l1hbo6t4vdc38fpff3jhxtlh&st=1u0w70u2&raw=1",
+      big: 1.5
+    },    
+    {
+      name: "Reportage From an Ending (CZ)",
+      text: "For: Czech Radio, 2017<br><br> A dream of a simple life close to nature is over.  The Danish guy in the circus caravan on the meadow is packing up his things to return to civilization. An ending unfolds. <br><br>With Tomas Pernický",
+      url: "https://wave.rozhlas.cz/novy-audiodokument-je-o-tom-jak-muze-dansky-dobrodruh-najit-stesti-na-louce-v-5990611",
+      img: "Pictures/Torben a Maringotka.jpg",
+      big: 1.2
+    },
+    {
+      name: "Tom and the Time Machine (DK)",
+      text: "For: Radio24syv, 2013<br><br> Tom Sonntag has muscular dystrophy. Tom Sonntag has muscular dystrophy. Day by day, hour by hour, he is growing weaker. Soon, he will no longer be able to lift his arms and play his beloved Steinway grand piano. But now, he has begun building a Time Machine that will take him back to music.<br><br>With Kim G. Hansen",
+      img: "Pictures/Piano.jpg",
+      audio: "https://www.dropbox.com/scl/fi/avc5jek6wqzmno7533rt2/Tom.wav?rlkey=zk0q095mxbkw9xwjz5e8ddxup&st=fdj5zsae&raw=1",
+      big: 1.5
+    },
+    {
       name: "Leave No One Behind (DK)",
-      text: "For: The Danish Institute for the Blind<br><br>Svetlana, Yamin and Ruta have experienced invasion, coup and war. But these three women have worse odds than many others, because they all have a sight impairment.",
+      text: "For: The Danish Institute for the Blind, 2024<br><br>Svetlana, Yamin and Ruta have experienced invasion, coup and war. But these three women have worse odds than many others, because they all live with a sight impairment.",
       url: "https://shows.acast.com/639c2162509aef001197329a/65251790a416f1001166ac6e",
       img: "Pictures/verdenssyn.jpg"
+    },   
+    {
+      name: "One day up, the next down (CZ)",
+      text: "For: Czech Radio, 2011<br><br>On the streets of Prague and Brno radio reporter Brit Jensen meets eight vendors of the homeless magazine, Nový Prostor. <br><br>With Roman Špála",
+      url: "",
+      img: "Pictures/Homeless.jpg"
+    },
+    {
+      name: "Alexander and Lizethe (DK)",
+      text: "For: Radio24syv, 2014<br><br>After high school, a young woman comes out as a lesbian. At 27, she transitions and becomes Alexander. Now, he is alone. Seven years later, Alexander meets Lizethe from Colombia, and a multilayered love story begins to unfold.<br><br>With Kim G. Hansen",
+      img: "Pictures/LGBT.jpg",
+      audio: "Sounds/Alexander og Lizethe.mp3",
+      big: 1.4
+    },    
+    {
+      name: "Everything in Life Has Its Price (DK)",
+      text: "For Radio24syv, 2014<br><br>A portrait of Dorthe Duus Hansen who has lived a long and tough life with prostitution in the streets of Copenhagen.<br><br> With Kim G. Hansen",
+      img: "Pictures/Street.jpeg",
+      audio: "https://www.dropbox.com/scl/fi/rngcrpof7r5odejneq76e/Everything-in-life.mp3?rlkey=i0j0wa2ttnks01amrobaaf42e&st=0hrwwy37&raw=1",
+      big: 1.1
     },
     {
       name: "Radio Dogs",
-      text: "Long time friends, sound nerds and colleagues Jiří and Brit listen to and share audio documentaries",
+      text: "Long time friends, sound nerds and colleagues Jiří and Brit listen to and share audio documentaries.<br><br>With Jiří Slavičínský",
       url: "https://radiodogs.cz/cs",
       img: "Pictures/radio dogs.png"
     },
@@ -146,67 +215,6 @@ const documentaryCardsContent = [
       url: "https://kohobytozajimalo.transistor.fm/",
       img: "https://img.transistor.fm/-uGm_-fxYfywYJQfDi-p23z-Tdr5kkqli9tDICCogIs/rs:fit:600:288:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9sb2dv/cy9zaXRlLzE1MTQ1/LzBfVVZPRF9FUEla/T0RBLnBuZw.webp",
     },
-    {
-      name: "Reportage From an Ending (CZ)",
-      text: "For: Czech Radio, 2017<br><br> A dream of a simple life close to nature is over. The man in the circus caravan on the meadow is packing up his things up to return to civilisation. An ending unfolds.",
-      url: "https://wave.rozhlas.cz/novy-audiodokument-je-o-tom-jak-muze-dansky-dobrodruh-najit-stesti-na-louce-v-5990611",
-      img: "Pictures/Torben a Maringotka.jpg",
-    },
-    {
-      name: "TOLD UNTOLD (CZ)",
-      text: "For: Czech Radio and the dutch Ironcurtainproject.eu, 2016<br><br> When a regime changes over night, certain stories become homeless. New taboos form.<br><br>ToldUntold was a documentary project inviting Czechs to tell their own untold stories from pre-89 Czechoslovakia.",
-      url: "https://www.ironcurtainproject.eu/en/stories/tolduntold/",
-      img: "Pictures/Communist group.jpeg",
-      big: 1.2
-    },
-    {
-      name: "Everything in Life Has Its Price (DK)",
-      text: "For Radio24syv, 2014<br><br> A radio portrait of Dorthe Duus Hansen who has lived a hard street life for many years.<br><br>Edit and music: Kim G. Hansen.",
-      img: "Pictures/Street.jpeg",
-      audio: "https://www.dropbox.com/scl/fi/rngcrpof7r5odejneq76e/Everything-in-life.mp3?rlkey=i0j0wa2ttnks01amrobaaf42e&st=0hrwwy37&raw=1",
-      big: 1.1
-    },
-    {
-      name: "Alexander and Lizethe (DK)",
-      text: "For: Radio24syv, 2014<br><br>A young woman comes out as a lesbian after high school. But at the age of 27, she undergoes gender reassignment surgery and now is Alexander and alone. Seven years later Alexander meets Lizethe from Colombia and a complicated love story begins to unfold. Edit and music: Kim G. Hansen.",
-      img: "Pictures/LGBT.jpg",
-      audio: "Sounds/Alexander og Lizethe.mp3",
-      big: 1.4
-    },
-    {
-      name: "Anatomy of a Moravian Village (CZ)",
-      text: "For: Czech Radio, 2014<br><br> In the Eastern part of Czechia there is a small village nestled among hills. Brit moves here just as the harvest festivities are beginning to unfold. She soon begins investigating the past of her new village. In the nearby woods there is a forgotten grave. But the body of an unknown German soldier is not the only thing that has been buried in secret. Stories from the past start reappearing and reveal old injustices that remain unhealed.",
-      url: "https://vltava.rozhlas.cz/anatomie-jedne-moravske-vesnice-5033229",
-      img: "Pictures/František a máma.jpeg",
-      big: 1.6
-    },
-    {
-      name: "I Have Been To Maidan Today (EN)",
-      text: "For: ABC, 2014<br><br>Oleh Krykavskyy is a young lawyer, who kept an audio diary during the events on the Maidan square in Kiev this year. We meet his friends: Inna who prepared food for the freezing protesters in Kiev, Syomkin who built barricades and mixed molotov cocktails as well as Alex from Eastern Ukraine who desperately wants order restored, and Oleh’s uncle, a Police Colonel, who in a decisive moment chose to protect the protesters.",
-      url: "https://www.abc.net.au/listen/programs/360-documentaries/i-have-been-to-maidan-today/5724852",
-      img: "Pictures/Tough guys.jpg",
-      big: 1.65
-    },
-    {
-      name: "Back to Snoldelev (DK)",
-      text: "For Radio24syv, 2013<br><br>A story about traveling abroad – and about returning home. Home to the farm where the ancestors have lived for at least five generations, and home to the windswept region where King Snold ruled over Denmark's first capital in ancient times.<br><br>Klip: Rikke Houd. Musik: Hypermagic.",
-      img: "Pictures/Snoldelev.jpeg",
-      audio: "https://www.dropbox.com/scl/fi/5nxgpuwud5c065tg0bdkx/Back-to-Snoldelev.mp3?rlkey=3l1hbo6t4vdc38fpff3jhxtlh&st=1u0w70u2&raw=1",
-      big: 1.5
-    },
-    {
-      name: "Tom and the Time Machine (DK)",
-      text: "For: Radio24syv, 2013<br><br> Tom Sonntag has muscular dystrophy. Day by day, hour by hour he is getting weaker. Soon he will no longer be able to lift his arms and play his beloved Steinway grand piano. But now he is building a time machine that will bring him back to music... Edit: Kim G. Hansen.",
-      img: "Pictures/Piano.jpg",
-      audio: "https://www.dropbox.com/scl/fi/avc5jek6wqzmno7533rt2/Tom.wav?rlkey=zk0q095mxbkw9xwjz5e8ddxup&st=fdj5zsae&raw=1",
-      big: 1.5
-    },
-    {
-      name: "One day up, the next down (CZ)",
-      text: "For: Czech Radio, 2011<br><br>On the streets of Prague and Brno radio reporter Brit Jensen meets eight vendors of the homeless magazine, Nový Prostor. <br><br>Sound: Roman Špála.",
-      url: "",
-      img: "Pictures/Homeless.jpg"
-    }
 ];
 
 
