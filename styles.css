@@ -158,6 +158,9 @@ footer h3 {
     height: 300px;
 }
 
+.card a {
+    color: black;
+}
 
 .card-img {
     object-fit: cover;
@@ -325,6 +328,7 @@ line {
     }
 
     footer {
+        padding-top: 25px;
         align-items: flex-start;
         flex-wrap: wrap;
         height: 300px;
