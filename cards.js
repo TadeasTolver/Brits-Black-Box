@@ -38,7 +38,7 @@ const documentaryCardsContent = [
     {
       name: "A New Tense (EN)",
       text: "For: BBC Radio 4, 2022<br><br>A story about learning the language of loss.<br><br>With Martin Ožvold and Eleanor McDowall",
-      url: "https://www.bbc.co.uk/sounds/play/m001c6gn",
+      url: "https://www.youtube.com/watch?v=VxlLEPjZPBU",
       img: "Pictures/volcano.jpg",
     },
     {
@@ -92,8 +92,8 @@ const documentaryCardsContent = [
     {
       name: "It Looks Like Cotton (DK)",
       text: "For Radio24syv, 2016<br><br>Can you support the right to abortion and still talk about the pain that can follow one? Women struggling emotionally after an abortion are sometimes met with: “You could have chosen differently.” Brit Jensen and Rosa Marie Frang set out to challenge that silence, while remaining unequivocally pro-choice.<br><br>With Rosa Marie Frang and Kim G. Hansen",
+      url: "https://www.youtube.com/watch?v=BCE-kUPg5gg",
       img: "Pictures/Cloud.jpeg",
-      audio: "https://www.dropbox.com/scl/fi/irul6ev6agax5j0g4tf0k/It-looks-like-cotton.wav?rlkey=hn0m3rkeu4dhdf0zyhuhslpd7&st=j3x3c87a&raw=1",
       big: 1.5
     }, 
     {
@@ -107,7 +107,7 @@ const documentaryCardsContent = [
       name: "The Substitute (DK)",
       text: "For Radio24syy, 2013<br><br>Brit takes a temporary job at an accounting firm just as the busy season approaches. She is replacing an accountant who has died. But what do you say when the phone rings and clients ask to speak to him? A story about human chaos intruding on a world built of refined orderliness.<br><br>With Jón Hallur Stefánsson and Kim G. Hansen",
       img: "Pictures/The Substitute.jpg",
-      audio: "https://www.dropbox.com/scl/fi/zsqi35gk1jsyvu5o213md/sub.mp3?rlkey=rni6uy9j9wh4ovo8ldqlhasta&st=eaow5tos&raw=1",
+      url: "https://www.youtube.com/watch?v=8r8JVdEpR3A",
       big: 1.45
     },    
     {
@@ -120,7 +120,7 @@ const documentaryCardsContent = [
     {
       name: "In Ten Years (CZ)",
       text: "For: Czech Radio, 2020<br>Brit’s eight-year-old child believes the world will end in ten years. His certainty deeply unsettles her. Together, mother and son set out to discover where his fear of the apocalypse comes from, and what they can do about it. <br><br> With Radim Dlesk",
-      url: "",
+      url: "https://www.youtube.com/watch?v=iGgFyt3Duts",
       img: "Pictures/za deset let.jpeg" 
     },
     {
@@ -155,7 +155,7 @@ const documentaryCardsContent = [
       name: "Back to Snoldelev (DK)",
       text: "For Radio24syv, 2013<br><br>A story about traveling abroad – and about returning home. Home to the farm where the ancestors have lived for at least five generations, and home to the windswept region where King Snold ruled over Denmark's first capital in ancient times.<br><br>With Rikke Houd and Kim G. Hansen",
       img: "Pictures/Snoldelev.jpeg",
-      audio: "https://www.dropbox.com/scl/fi/5nxgpuwud5c065tg0bdkx/Back-to-Snoldelev.mp3?rlkey=3l1hbo6t4vdc38fpff3jhxtlh&st=1u0w70u2&raw=1",
+      url: "https://www.youtube.com/watch?v=xgskQKKH46w",
       big: 1.5
     },    
     {
@@ -169,7 +169,7 @@ const documentaryCardsContent = [
       name: "Tom and the Time Machine (DK)",
       text: "For: Radio24syv, 2013<br><br> Tom Sonntag has muscular dystrophy. Tom Sonntag has muscular dystrophy. Day by day, hour by hour, he is growing weaker. Soon, he will no longer be able to lift his arms and play his beloved Steinway grand piano. But now, he has begun building a Time Machine that will take him back to music.<br><br>With Kim G. Hansen",
       img: "Pictures/Piano.jpg",
-      audio: "https://www.dropbox.com/scl/fi/avc5jek6wqzmno7533rt2/Tom.wav?rlkey=zk0q095mxbkw9xwjz5e8ddxup&st=fdj5zsae&raw=1",
+      url: "https://www.youtube.com/watch?v=vz9skagIHkk",
       big: 1.5
     },
     {
@@ -188,14 +188,14 @@ const documentaryCardsContent = [
       name: "Alexander and Lizethe (DK)",
       text: "For: Radio24syv, 2014<br><br>After high school, a young woman comes out as a lesbian. At 27, she transitions and becomes Alexander. Now, he is alone. Seven years later, Alexander meets Lizethe from Colombia, and a multilayered love story begins to unfold.<br><br>With Kim G. Hansen",
       img: "Pictures/LGBT.jpg",
-      audio: "Sounds/Alexander og Lizethe.mp3",
+      url: "https://www.youtube.com/watch?v=L2ewryWdIH8",
       big: 1.4
     },    
     {
       name: "Everything in Life Has Its Price (DK)",
       text: "For Radio24syv, 2014<br><br>A portrait of Dorthe Duus Hansen who has lived a long and tough life with prostitution in the streets of Copenhagen.<br><br> With Kim G. Hansen",
       img: "Pictures/Street.jpeg",
-      audio: "https://www.dropbox.com/scl/fi/rngcrpof7r5odejneq76e/Everything-in-life.mp3?rlkey=i0j0wa2ttnks01amrobaaf42e&st=0hrwwy37&raw=1",
+      url: "https://www.youtube.com/watch?v=Ahx3xuV0pOQ",
       big: 1.1
     },
     {
