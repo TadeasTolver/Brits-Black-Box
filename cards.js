@@ -110,7 +110,7 @@ const documentaryCardsContent = [
     },    
     {
       name: "Yusra, Swim for Your Life (EN)",
-      text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in August 2015 and followed her journey all the way to Rio.",
+      text: "For: Czech Radio, BBC 4 and BBC World Service, 2016<br><br>Yusra Mardini's story made news around the world - the teenage Syrian refugee who swam to survive, and then was selected to compete in the pool for the refugee team at the Olympic Games. Czech journalist Magdaléna Sodomková met Yusra in Serbia in August 2015 and followed her journey all the way to Rio.<br><br>With Magdalena Sodomková, Jan Trojan and Lam Duc Hien",
       url: "https://www.bbc.co.uk/programmes/p047g9tg",
       img: "Pictures/Immigrants.jpg",
       big: 1.5
