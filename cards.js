@@ -4,7 +4,7 @@ const documentaryCardsContent = [
     {
       name: "Hotel Hate (CZ)",
       text: "For: Hate Free, 2023<br><br>A story about lesbian cows, rusty cunts and fags with crooked teeth. An exploration of misogyny and homophobia in contemporary Czechia.<br><br>With Adam Voneš and Lukáš Houdek",
-      url: "https://en.banguoja.lt/neapykantos-viesbutis",
+      url: "https://www.youtube.com/watch?v=Y3-mMkQSYRQ",
       img: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/17514718/17514718-1687697716252-89e52edfe6bd5.jpg",
       big: 1.1
     },
@@ -181,7 +181,7 @@ const documentaryCardsContent = [
     {
       name: "One day up, the next down (CZ)",
       text: "For: Czech Radio, 2011<br><br>On the streets of Prague and Brno radio reporter Brit Jensen meets eight vendors of the homeless magazine, Nový Prostor. <br><br>With Roman Špála",
-      url: "",
+      url: "https://www.youtube.com/watch?v=rdPtVOwznVM",
       img: "Pictures/Homeless.jpg"
     },
     {
