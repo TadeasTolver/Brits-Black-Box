@@ -158,7 +158,9 @@ footer h3 {
     height: 300px;
 }
 
-
+.card a {
+    color: black;
+}
 
 .card-img {
     object-fit: cover;
@@ -214,9 +216,7 @@ footer h3 {
     color: black;
 }
 
-.card a {
-    color: black;
-}
+
 
 /* media: */
 
