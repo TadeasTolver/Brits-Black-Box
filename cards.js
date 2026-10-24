@@ -3,9 +3,9 @@ const documentaryCardsContent = [
     {
       name: "Hotel Hate (CZ)",
       text: "For: Hate Free, 2023<br><br>A story about lesbian cows, rusty cunts and fags with crooked teeth. An exploration of misogyny and homophobia in contemporary Czechia.<br><br>With Adam Voneš and Lukáš Houdek",
-      url: [null, "https://www.youtube.com/watch?v=Y3-mMkQSYRQ", null, null],
+      url: [null, "https://www.youtube.com/watch?v=Y3-mMkQSYRQ", null, "https://en.banguoja.lt/neapykantos-viesbutis"],
       img: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/17514718/17514718-1687697716252-89e52edfe6bd5.jpg",
-      big: 1.1
+      big: 1.2
     },
     {
       name: "Anatomy of Fear (CZ)",
@@ -16,7 +16,7 @@ const documentaryCardsContent = [
     },
     {
       name: "Mathematics of Crime (CZ)",
-      text: `Czechia’s very first true crime podcast. An investigation revealing the grave implications to justice caused by a court-appointed expert and media darling nick-named “The Mathematician of Crime.”<br><br>With Magdalena Sodomková, Martin Ožvold, Jakub Rataj and Roman Špála<br><br><a target="_blank" href="https://www.youtube.com/watch?v=Xm2HFspE9Vs">The podcast series was later adapted into a TV miniseries of the same name.</a>`,
+      text: `Czechia’s very first true crime podcast. An investigation revealing the grave implications to justice caused by a court-appointed expert and media darling nick-named “The Mathematician of Crime.”<br><br>With Magdalena Sodomková, Martin Ožvold, Jakub Rataj and Roman Špála<br><br><a target="_blank" href="https://www.youtube.com/watch?v=Xm2HFspE9Vs">The podcast series was censored by Czech public radio and later adapted into a TV miniseries of the same name.</a>`,
       url: [null, "https://matematikazlocinu.cz/", null, null],
       img: "Pictures/Mat. Zločinů.jpg",
       big: 1.5
