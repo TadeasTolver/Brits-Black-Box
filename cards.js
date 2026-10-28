@@ -30,7 +30,7 @@ const documentaryCardsContent = [
     {
       name: "The House at the End of the Road (CZ)",
       text: "For: The Daily Denik Referendum, 2025<br><br>When prominent Czech architect Růžena Žertová became terminally ill in 2019, she had two final wishes: to die at home and to leave her beloved house to a foundation. But when a doctor became involved, neither wish was fulfilled. What happened?<br><br>With Gaby Khazalová and Martin Ožvold",
-      url: [null, "https://shows.acast.com/dm-v-zakouti", null, null],
+      url: [null, "https://shows.acast.com/dm-v-zakouti", null, "https://www.youtube.com/watch?v=wxR8e9p-nZI"],
       img: "Pictures/dum.jpeg",
       big: 1.5
     },
