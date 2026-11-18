@@ -10,7 +10,7 @@ const documentaryCardsContent = [
     {
       name: "Anatomy of Fear (CZ)",
       text: `For: Audionaut, 2020<br><br>“I fear that which I cannot see.” Anatomy of Fear is an in-depth exploration of one emotion captured in five true stories. A series of intimate micro-horrors in sound.<br><br>With Jiří Slavičínský and Martin Ožvold`,
-      url: [null, "https://audionaut.cz/podcasty/anatomie-strachu/", null, null],
+      url: [null, "https://audionaut.cz/podcasty/anatomie-strachu/", null, "https://www.youtube.com/watch?v=Tqyl-WXsm44"],
       img: "Pictures/strach.png",
       big: 1.1
     },
