@@ -3,7 +3,7 @@ const documentaryCardsContent = [
     {
       name: "Hotel Hate (CZ)",
       text: "For: Hate Free, 2023<br><br>A story about lesbian cows, rusty cunts and fags with crooked teeth. An exploration of misogyny and homophobia in contemporary Czechia.<br><br>With Adam Voneš and Lukáš Houdek",
-      url: [null, "https://www.youtube.com/watch?v=Y3-mMkQSYRQ", null, "https://en.banguoja.lt/neapykantos-viesbutis"],
+      url: [null, null, null, "https://en.banguoja.lt/neapykantos-viesbutis"],
       img: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/17514718/17514718-1687697716252-89e52edfe6bd5.jpg",
       big: 1.2
     },
